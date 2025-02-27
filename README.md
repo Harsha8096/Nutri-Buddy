@@ -14,12 +14,12 @@ A diet plan recommendation system using LLMs and RAG to predict diseases (diabet
    cd NutriBuddy
 2. Install dependencies:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 4. Set up databases:
 Configure Chroma DB for vector storage.
 Import USDA food data into Postgres.
 5. Run the Flask app:
-```bash
+   ```bash
    python app/routes.py
 Access the chatbot at http://localhost:5000.
 
